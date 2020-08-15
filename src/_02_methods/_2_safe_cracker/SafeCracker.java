@@ -35,7 +35,7 @@ public class SafeCracker {
 		if (guess == secretCode) {
 			JOptionPane.showMessageDialog(null, "Congratulations! You cracked the safe with " + guess);
 			playTheSoundOfSuccess();
-			System.exit(0);
+			
 		}
 	}
 
