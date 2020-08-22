@@ -4,7 +4,7 @@ import javax.swing.JOptionPane;
 
 public class RollerCoaster {
 
-	// 1) Make a main method that includes all the steps below…. 
+	// 1) Make a main method that includes all the steps below. 
 		public static void main(String[] args) {
 			
 		
@@ -19,7 +19,7 @@ public class RollerCoaster {
 		// 3) Convert heightToRide to heightAsInt using Integer.parseInt();  Hint: int heightAsInt = Integer.parse... 
 		
 		// 4) If the heightAsInt is greater than or equal to 48 inches tall print:
-	    // "Hurray! You are tall enough to ride the coaster alone!" Hint: use JoptionPane
+	    //"Hurray! You are tall enough to ride the coaster alone!" Hint: use JoptionPane
 			 if(heightToRide>=48) {
 			JOptionPane.showMessageDialog(null,"Hurray! You are tall enough to ride the coaster alone!");
 		}
